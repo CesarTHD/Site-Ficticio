@@ -1,0 +1,193 @@
+*{
+
+}
+
+body{
+    background: #F4F2EC url(../imagens/fundo.png) repeat-x;
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+#conteiner{
+    width: 1080px;
+    margin: 0 auto;
+}
+header{
+    height: 55px;
+    margin: 15px 0;
+    width: 100%;
+}
+#logo{
+    background: url(../imagens/logo.png) no-repeat left center;
+    text-indent: -900px;
+    width: 250px;
+    height: 50px;
+    float: left;
+}
+nav{
+    float: right;
+    margin: 0 50px;
+}
+nav li{
+    display: inline;
+    margin-top: 5px;
+    list-style-type: none;
+}
+nav li a{
+    text-decoration: none;
+    color: #af670a;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    padding: 0 5px;
+    line-height: 2em;
+}nav li a:hover{
+    border-bottom: solid 1px grey;
+    color: green;
+}
+
+#principal{
+    float: left;
+}
+
+#capa{
+    width: 710px;
+}
+
+#conteudo{
+    width: 710px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.postagem{
+    border: solid 1px black;
+    width: 305px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px grey;
+}
+.postagem h3{
+    color: green;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+    font-size: 1em;
+}
+
+.postagem a{
+    text-decoration: none;
+    color: #af670a;
+}
+.postagem a:hover{
+    color: green;
+}
+.leia-mais{
+    color: #af670a;
+    font-weight: bold;
+}
+
+#lateral{
+    float: right;
+}
+
+#lateral div{
+    margin-bottom: 15px;
+}
+
+#lateral h4{
+    margin: 0 0 10px 0;
+    color: #86521A;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+.agendamento{
+    width: 310px;
+    background: #CDC8B1;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.agendamento input[type="date"]{
+    width: 130px;
+}
+.agendamento input[type="number"]{
+    width: 30px;
+}
+.agendamento input[type="submit"]{
+    width: 100%;
+    height: 40px;
+    background: #9B9271;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    margin-top: 10px;
+}
+.agendamento input[type="submit"]:hover{
+    background: #8a7d4e;
+    cursor: pointer;
+}
+
+.galeria{
+    width: 310px;
+    background: #EBE7DD;
+    padding: 20px 20px 0 20px;
+}
+.album{
+    width: 310px;
+    height: 290px;
+    margin: 0;
+}
+
+.foto-esquerda{
+    width: 126px;
+    height: 133px;
+    background: url(../imagens/fundo-foto.png) no-repeat;
+    float: left;
+    margin-left: 15px;
+}
+.foto-direita{
+    margin-right: 15px;
+    width: 126px;
+    height: 133px;
+    background: url(../imagens/fundo-foto.png) no-repeat;
+    float: right;
+}
+
+.album a img{
+    position: relative;
+    top: 20px;
+    left: 17px;
+}
+
+footer{
+    background: url(../imagens/fundo-rodape.png) no-repeat center top;
+    height: 100px;
+    text-align: center;
+}
+footer ul{
+    margin: 0;
+    padding: 0;
+}
+
+footer li{
+    display: inline;
+    list-style-type: none;
+}
+footer li a{
+    text-decoration: none;
+    color: #86521A;
+    padding: 5px;
+    font-size: 1.1em;
+    line-height: 5em;
+}
+footer li a:hover{
+    color: green;
+}
+footer h5{
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+
+.clear{
+    clear: both;
+}
